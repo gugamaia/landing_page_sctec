@@ -190,10 +190,12 @@ body{
   font-size: .92rem;
 }
 
-.muted small{
-  display: block;
-  margin-top: 8px;
-  color: var(--primary);
+.hero__card .muted.small a { 
+  color: var(--primary); 
+}
+
+.hero__card .muted.small a:hover { 
+  color: var(--muted); 
 }
 
 .hero__card{
@@ -318,7 +320,7 @@ body{
   color: var(--text);
   border-color: rgba(148,163,184,.18);
 }
-.btn-link:hover{ background: rgba(148,163,184,.10); }
+.btn-link:hover{ background: var(--primary); }
 
 .btn[disabled]{
   opacity: .55;
