@@ -112,7 +112,7 @@ body{
 }
 .nav__link:hover{
   background: rgba(148,163,184,.10);
-  color: var(--text);
+  color: var(--primary);
 }
 
 .menuBtn{
@@ -195,7 +195,7 @@ body{
 }
 
 .hero__card .muted.small a:hover { 
-  color: var(--muted); 
+  color: var(--primary); 
 }
 
 .hero__card{
@@ -306,14 +306,14 @@ body{
   background: var(--primary);
   color: #0b1220;
 }
-.btn-primary:hover{ background: var(--primary2); }
+.btn-primary:hover{ background: var(--primary); }
 
 .btn-ghost{
   background: rgba(148,163,184,.10);
   color: var(--text);
   border-color: rgba(148,163,184,.18);
 }
-.btn-ghost:hover{ background: rgba(148,163,184,.16); }
+.btn-ghost:hover{ background: var(--primary); }
 
 .btn-link{
   background: transparent;
@@ -413,6 +413,7 @@ body{
 .link:hover{
   text-decoration: underline;
   opacity: 1;
+  color: var(--primary);
 }
 
 /* =========
